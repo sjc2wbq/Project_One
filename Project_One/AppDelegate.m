@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#define kPath @"http://box.dwstatic.com/apiAlbum.php?action=l&albumsTag=wallpaper&p=1&v=77&OSType=iOS8.2&versionName=2.1.7"
+#import "TestNetManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [TestNetManager getDataFromPath:kPath completionHandle:^(id model, NSError *error) {
+        NSLog(@"");
+    }];
     return YES;
 }
 

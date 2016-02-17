@@ -16,6 +16,8 @@
 		85D61AE81C740D8D00A6DC6C /* NSObject+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AE71C740D8D00A6DC6C /* NSObject+AFNetworking.m */; };
 		85D61AEB1C740D9D00A6DC6C /* NSObject+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AEA1C740D9D00A6DC6C /* NSObject+MJExtension.m */; };
 		85D61AEE1C740DB900A6DC6C /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AED1C740DB900A6DC6C /* UIScrollView+Refresh.m */; };
+		85D61AF21C7418DD00A6DC6C /* TestNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AF11C7418DD00A6DC6C /* TestNetManager.m */; };
+		85D61AF51C74197B00A6DC6C /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AF41C74197B00A6DC6C /* TestModel.m */; };
 		A8DF8E431F4C47B426979151 /* libPods-Project_One.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D66B7B3BA50FC514C9F5E72D /* libPods-Project_One.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,11 @@
 		85D61AEA1C740D9D00A6DC6C /* NSObject+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJExtension.m"; sourceTree = "<group>"; };
 		85D61AEC1C740DB900A6DC6C /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
 		85D61AED1C740DB900A6DC6C /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		85D61AEF1C74130200A6DC6C /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		85D61AF01C7418DD00A6DC6C /* TestNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetManager.h; sourceTree = "<group>"; };
+		85D61AF11C7418DD00A6DC6C /* TestNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetManager.m; sourceTree = "<group>"; };
+		85D61AF31C74197B00A6DC6C /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		85D61AF41C74197B00A6DC6C /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		D4CE040F0B0C9CE2D76319D4 /* Pods-Project_One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_One.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project_One/Pods-Project_One.release.xcconfig"; sourceTree = "<group>"; };
 		D66B7B3BA50FC514C9F5E72D /* libPods-Project_One.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project_One.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,6 +134,7 @@
 		85D61AD81C740C9400A6DC6C /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				85D61AEF1C74130200A6DC6C /* Constant.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -141,6 +149,8 @@
 		85D61ADA1C740C9400A6DC6C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				85D61AF31C74197B00A6DC6C /* TestModel.h */,
+				85D61AF41C74197B00A6DC6C /* TestModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +158,8 @@
 		85D61ADB1C740C9400A6DC6C /* NetManager */ = {
 			isa = PBXGroup;
 			children = (
+				85D61AF01C7418DD00A6DC6C /* TestNetManager.h */,
+				85D61AF11C7418DD00A6DC6C /* TestNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -330,12 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D61AF21C7418DD00A6DC6C /* TestNetManager.m in Sources */,
 				85D61AE81C740D8D00A6DC6C /* NSObject+AFNetworking.m in Sources */,
 				85D61AEE1C740DB900A6DC6C /* UIScrollView+Refresh.m in Sources */,
 				85D61AC51C740A3400A6DC6C /* AppDelegate.m in Sources */,
 				85D61AEB1C740D9D00A6DC6C /* NSObject+MJExtension.m in Sources */,
 				85D61AE41C740C9400A6DC6C /* ViewController.m in Sources */,
 				85D61AC21C740A3400A6DC6C /* main.m in Sources */,
+				85D61AF51C74197B00A6DC6C /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

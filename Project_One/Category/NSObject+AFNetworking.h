@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define kCompletionHandle (void(^)(id model,NSError *error))completionHandle
 @interface NSObject (AFNetworking)
++(id)GET:(NSString *)path parameters:(id)parameters progress:(void(^)(NSProgress *))downloadProgress completionHandle:(void(^)(id responseObj,NSError *error))completionHandle;
++(id)POST:(NSString *)path parameters:(id)parameters progress:(void(^)(NSProgress *))downloadProgress completionHandle:(void(^)(id responseObj,NSError *error))completionHandle;
 
 @end

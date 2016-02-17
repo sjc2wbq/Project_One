@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (MJExtension)
-
++(id)parse:(id)responseObj;
++(NSDictionary *)replacedKeyFromPropertyName;
++(NSString *)replacedKeyFromPropertyName:(NSString *)propertyName;
 @end
