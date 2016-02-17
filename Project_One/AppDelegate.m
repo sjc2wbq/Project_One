@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#define kBeautyPath @"http://route.showapi.com/197-1"
+
 #define kPath @"http://box.dwstatic.com/apiAlbum.php?action=l&albumsTag=wallpaper&p=1&v=77&OSType=iOS8.2&versionName=2.1.7"
 #import "TestNetManager.h"
 @interface AppDelegate ()
@@ -18,9 +20,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [TestNetManager getDataFromPath:kPath completionHandle:^(id model, NSError *error) {
+    [TestNetManager getDataFromPath:kBeautyPath completionHandle:^(id model, NSError *error) {
         NSLog(@"");
     }];
+//aped: 15813
+//secret: 82494983a8e142f0b9cd3a4307513086
+    NSString *bPath = @"http://route.showapi.com/197-1?appid=15813&secret=82494983a8e142f0b9cd3a4307513086";
     return YES;
 }
 

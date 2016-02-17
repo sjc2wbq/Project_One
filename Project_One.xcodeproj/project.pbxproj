@@ -18,6 +18,7 @@
 		85D61AEE1C740DB900A6DC6C /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AED1C740DB900A6DC6C /* UIScrollView+Refresh.m */; };
 		85D61AF21C7418DD00A6DC6C /* TestNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AF11C7418DD00A6DC6C /* TestNetManager.m */; };
 		85D61AF51C74197B00A6DC6C /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AF41C74197B00A6DC6C /* TestModel.m */; };
+		85D61B041C7434E300A6DC6C /* BeautyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61B031C7434E300A6DC6C /* BeautyModel.m */; };
 		A8DF8E431F4C47B426979151 /* libPods-Project_One.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D66B7B3BA50FC514C9F5E72D /* libPods-Project_One.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		85D61AF11C7418DD00A6DC6C /* TestNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetManager.m; sourceTree = "<group>"; };
 		85D61AF31C74197B00A6DC6C /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		85D61AF41C74197B00A6DC6C /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		85D61B021C7434E300A6DC6C /* BeautyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyModel.h; sourceTree = "<group>"; };
+		85D61B031C7434E300A6DC6C /* BeautyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyModel.m; sourceTree = "<group>"; };
 		D4CE040F0B0C9CE2D76319D4 /* Pods-Project_One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_One.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project_One/Pods-Project_One.release.xcconfig"; sourceTree = "<group>"; };
 		D66B7B3BA50FC514C9F5E72D /* libPods-Project_One.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project_One.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 			children = (
 				85D61AF31C74197B00A6DC6C /* TestModel.h */,
 				85D61AF41C74197B00A6DC6C /* TestModel.m */,
+				85D61B021C7434E300A6DC6C /* BeautyModel.h */,
+				85D61B031C7434E300A6DC6C /* BeautyModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D61AF21C7418DD00A6DC6C /* TestNetManager.m in Sources */,
+				85D61B041C7434E300A6DC6C /* BeautyModel.m in Sources */,
 				85D61AE81C740D8D00A6DC6C /* NSObject+AFNetworking.m in Sources */,
 				85D61AEE1C740DB900A6DC6C /* UIScrollView+Refresh.m in Sources */,
 				85D61AC51C740A3400A6DC6C /* AppDelegate.m in Sources */,
